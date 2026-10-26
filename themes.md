@@ -7,7 +7,7 @@
 ## 种子主题（来自电气×AI 毕设方向池，仅作教辅选题参考）
 
 - [done] pid-nn-motor-speed | 基于 PID 优化与神经网络的电机调速控制系统 | PID, 神经网络, 电机调速
-- [todo] pv-lstm-short-term | 面向配网消纳的光伏系统仿真及 LSTM 短期功率预测 | 光伏, LSTM, 配网消纳
+- [done] pv-lstm-short-term | 面向配网消纳的光伏系统仿真及 LSTM 短期功率预测 | 光伏, LSTM, 配网消纳
 - [todo] wind-rf-abnormal | 基于随机森林的风电机组出力工况识别与异常预警 | 风电, 随机森林, 异常预警
 - [todo] park-load-clustering | 基于聚类的工业园区典型用电负荷模式识别 | 聚类, 负荷模式, 工业园区
 - [todo] dc-microgrid-voltage-ml | 基于仿真数据与机器学习的直流微网电压波动抑制 | 直流微网, 电压波动, 机器学习
