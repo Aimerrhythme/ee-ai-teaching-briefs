@@ -12,7 +12,7 @@
 - [done] park-load-clustering | 基于聚类的工业园区典型用电负荷模式识别 | 聚类, 负荷模式, 工业园区
 - [done] dc-microgrid-voltage-ml | 基于仿真数据与机器学习的直流微网电压波动抑制 | 直流微网, 电压波动, 机器学习
 - [done] renewables-load-partition | 基于聚类分析的新能源配网负荷特性分区仿真 | 聚类, 新能源配网, 负荷特性
-- [doing] lstm-voltage-sag | 基于 LSTM 时序模型的配电网电压暂降故障预测 | LSTM, 电压暂降, 故障预测
+- [done] lstm-voltage-sag | 基于 LSTM 时序模型的配电网电压暂降故障预测 | LSTM, 电压暂降, 故障预测
 - [todo] rf-pv-inverter-fault | 基于随机森林的光伏逆变器故障诊断仿真 | 随机森林, 光伏逆变器, 故障诊断
 
 ## 自定义主题

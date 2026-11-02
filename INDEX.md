@@ -7,3 +7,4 @@
 | 2026-10-28 | 基于聚类的工业园区典型用电负荷模式识别 | [works/2026-10-28-park-load-clustering](./works/2026-10-28-park-load-clustering/README.md) |
 | 2026-10-29 | 基于仿真数据与机器学习的直流微网电压波动抑制 | [works/2026-10-29-dc-microgrid-voltage-ml](./works/2026-10-29-dc-microgrid-voltage-ml/README.md) |
 | 2026-10-30 | 基于聚类分析的新能源配网负荷特性分区仿真 | [works/2026-10-30-renewables-load-partition](./works/2026-10-30-renewables-load-partition/README.md) |
+| 2026-11-02 | 基于 LSTM 时序模型的配电网电压暂降故障预测 | [works/2026-11-02-lstm-voltage-sag](./works/2026-11-02-lstm-voltage-sag/README.md) |
