@@ -19,7 +19,7 @@
 
 （在下方追加；Routine 优先取本文件中第一条 `todo`。补货条目可附课堂角度与参考链接。）
 
-- [doing] cnn-bilstm-residential-load | 居民侧日前负荷 BiLSTM / CNN-BiLSTM 对比 | BiLSTM, 居民负荷, 短期预测
+- [done] cnn-bilstm-residential-load | 居民侧日前负荷 BiLSTM / CNN-BiLSTM 对比 | BiLSTM, 居民负荷, 短期预测
   - 课堂角度：用公开居民侧聚合负荷做「昨日→次日」滚动预测，对比朴素日翻日、LSTM、BiLSTM、CNN-BiLSTM 的 RMSE，适合专科讲清双向时序与卷积特征提取各自带来什么。
   - 参考：https://arxiv.org/abs/2302.05033 · https://github.com/Varat7v2/STLF-BiLSTM-CNNBiLSTM
 
