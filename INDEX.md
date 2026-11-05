@@ -10,3 +10,4 @@
 | 2026-11-02 | 基于 LSTM 时序模型的配电网电压暂降故障预测 | [works/2026-11-02-lstm-voltage-sag](./works/2026-11-02-lstm-voltage-sag/README.md) |
 | 2026-11-03 | 基于随机森林的光伏逆变器故障诊断仿真 | [works/2026-11-03-rf-pv-inverter-fault](./works/2026-11-03-rf-pv-inverter-fault/README.md) |
 | 2026-11-04 | 居民侧日前负荷 BiLSTM / CNN-BiLSTM 对比 | [works/2026-11-04-cnn-bilstm-residential-load](./works/2026-11-04-cnn-bilstm-residential-load/README.md) |
+| 2026-11-05 | 锂电健康状态 CNN+随机森林估算 | [works/2026-11-05-cnn-rf-battery-soh](./works/2026-11-05-cnn-rf-battery-soh/README.md) |

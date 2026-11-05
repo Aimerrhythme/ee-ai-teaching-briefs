@@ -23,7 +23,7 @@
   - 课堂角度：用公开居民侧聚合负荷做「昨日→次日」滚动预测，对比朴素日翻日、LSTM、BiLSTM、CNN-BiLSTM 的 RMSE，适合专科讲清双向时序与卷积特征提取各自带来什么。
   - 参考：https://arxiv.org/abs/2302.05033 · https://github.com/Varat7v2/STLF-BiLSTM-CNNBiLSTM
 
-- [doing] cnn-rf-battery-soh | 锂电健康状态 CNN+随机森林估算 | SOH, CNN, 随机森林, 储能
+- [done] cnn-rf-battery-soh | 锂电健康状态 CNN+随机森林估算 | SOH, CNN, 随机森林, 储能
   - 课堂角度：从部分充放电曲线入手，先用 CNN 抽特征再用随机森林回归容量衰减，接储能/电动汽车导论里的「健康状态」概念，不要求搭完整电池电化学模型。
   - 参考：https://arxiv.org/abs/2010.10452
 
