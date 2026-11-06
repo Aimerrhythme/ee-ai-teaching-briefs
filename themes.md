@@ -42,3 +42,27 @@
 - [todo] microgrid-inverter-switch-ml | 微网逆变器开关故障与异常 ML 检测 | 微网, 逆变器, 故障定位, KNN
   - 课堂角度：在含光伏与储能的逆变器主导微网里区分内部开关故障与虚假数据注入类异常，用 KNN 等分类器做开关定位，扩展已有「光伏逆变器故障」选题到系统级场景。
   - 参考：https://arxiv.org/abs/2411.08761
+
+- [todo] ml-fault-class-loc | 配网短路故障分类与定位 ML 对比 | 继电保护, 故障分类, 故障定位, 时序窗口
+  - 课堂角度：用电磁暂态合成的短窗电压/电流，对比决策树、随机森林与浅层神经网络在故障类型与区段定位上的准确率与推理时延，把「保护定值」和「数据驱动」放在同一节课里对照。
+  - 参考：https://arxiv.org/abs/2510.00831
+
+- [todo] xgb-dga-transformer | 油浸式变压器 DGA + XGBoost 诊断 | DGA, 变压器, XGBoost, 油色谱
+  - 课堂角度：先讲 IEC 三比值编码的局限，再用公开 DGA 样本训练 XGBoost，对照特征重要度与气体产气机理，适合专科「变压器运维」实验把传统经验规则接到可复现的 ML 流水线。
+  - 参考：https://arxiv.org/abs/2110.11467
+
+- [todo] iforest-pmu-anomaly | PMU 同步相量 Isolation Forest 异常检测 | PMU, 异常检测, Isolation Forest, 广域监测
+  - 课堂角度：在合成或公开 PMU 流上注入毛刺/丢包/频率偏移，用 Isolation Forest 做无监督告警，并与重构类方法做 F1 对比，强调「先检出再解释」的课堂节奏。
+  - 参考：https://arxiv.org/abs/2509.25612
+
+- [todo] pinn-swing-smib | 单机无穷大摇摆方程 PINN 入门 | PINN, 摇摆方程, 暂态稳定, 物理信息
+  - 课堂角度：同一 MLP 结构分别做纯数据拟合与带配点残差的 PINN，观察稀疏样本下功角/转速轨迹，让学生体会「把微分方程写进损失函数」相对黑箱拟合的增益。
+  - 参考：https://arxiv.org/abs/1911.03737 · https://arxiv.org/abs/2608.02599 · https://github.com/enliten/IEEE-course_AI-for-Power-Energy-Systems
+
+- [todo] drl-bess-dispatch | 分时电价下储能 DQN 调度沙盒 | 储能, DQN, 强化学习, 分时电价
+  - 课堂角度：用 24 小时负荷与峰谷电价搭一个充/放/待机三动作玩具环境，跑浅层 DQN 并画累计电费曲线，只要求讲清状态—动作—奖励，不要求上真实微网控制器。
+  - 参考：https://arxiv.org/abs/2608.02599 · https://github.com/enliten/IEEE-course_AI-for-Power-Energy-Systems
+
+- [todo] lstm-ev-charge-forecast | 电动汽车充电站负荷 LSTM 预测 | 充电站, LSTM, 负荷预测, 交通电气化
+  - 课堂角度：把校园或公开充电桩功率按 15 min 聚合，对比日翻日基线与 LSTM 的日前误差，串起「交通侧不确定性 → 配电侧峰荷」的教学故事线。
+  - 参考：https://arxiv.org/abs/2510.16719 · https://arxiv.org/abs/2512.17257
