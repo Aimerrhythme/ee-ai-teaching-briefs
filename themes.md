@@ -27,7 +27,7 @@
   - 课堂角度：从部分充放电曲线入手，先用 CNN 抽特征再用随机森林回归容量衰减，接储能/电动汽车导论里的「健康状态」概念，不要求搭完整电池电化学模型。
   - 参考：https://arxiv.org/abs/2010.10452
 
-- [todo] seq2point-nilm | 非侵入式负荷分解 seq2point CNN 入门 | NILM, CNN, 负荷分解
+- [done] seq2point-nilm | 非侵入式负荷分解 seq2point CNN 入门 | NILM, CNN, 负荷分解
   - 课堂角度：只给总表功率，用滑动窗口 CNN 估计单台电器功率（seq2point），可选用 REDD/UK-DALE 公开数据做电器开关识别演示，贴近智能用电与需求侧管理。
   - 参考：https://arxiv.org/abs/1612.09106 · https://github.com/redefik/ConvNILM
 
