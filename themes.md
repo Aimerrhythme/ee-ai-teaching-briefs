@@ -31,7 +31,7 @@
   - 课堂角度：只给总表功率，用滑动窗口 CNN 估计单台电器功率（seq2point），可选用 REDD/UK-DALE 公开数据做电器开关识别演示，贴近智能用电与需求侧管理。
   - 参考：https://arxiv.org/abs/1612.09106 · https://github.com/redefik/ConvNILM
 
-- [todo] cnn-pf-surrogate-5bus | 五母线潮流 CNN 代理模型课堂实验 | CNN, 潮流, 代理模型
+- [doing] cnn-pf-surrogate-5bus | 五母线潮流 CNN 代理模型课堂实验 | CNN, 潮流, 代理模型
   - 课堂角度：把蒙特卡洛潮流结果当标签，训练一维 CNN 近似电压/支路潮流，对照 pandapower 精确潮流，让学生体会「物理仿真 vs 数据代理」的速度与误差权衡。
   - 参考：https://github.com/enliten/IEEE-course_AI-for-Power-Energy-Systems
 
