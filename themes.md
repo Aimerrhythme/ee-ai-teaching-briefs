@@ -35,7 +35,7 @@
   - 课堂角度：把蒙特卡洛潮流结果当标签，训练一维 CNN 近似电压/支路潮流，对照 pandapower 精确潮流，让学生体会「物理仿真 vs 数据代理」的速度与误差权衡。
   - 参考：https://github.com/enliten/IEEE-course_AI-for-Power-Energy-Systems
 
-- [doing] cnn-voltage-quality | 电压质量扰动时序 CNN 分类 | 电能质量, CNN, 暂降 swell
+- [done] cnn-voltage-quality | 电压质量扰动时序 CNN 分类 | 电能质量, CNN, 暂降 swell
   - 课堂角度：把暂降、暂升、中断、谐波等波形做成多类分类任务，强调特征窗长与噪声鲁棒性，可与继电保护/电能质量实验课联动。
   - 参考：https://arxiv.org/abs/1904.00228
 
