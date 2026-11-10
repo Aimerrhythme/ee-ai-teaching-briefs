@@ -13,3 +13,4 @@
 | 2026-11-05 | 锂电健康状态 CNN+随机森林估算 | [works/2026-11-05-cnn-rf-battery-soh](./works/2026-11-05-cnn-rf-battery-soh/README.md) |
 | 2026-11-06 | 非侵入式负荷分解 seq2point CNN 入门 | [works/2026-11-06-seq2point-nilm](./works/2026-11-06-seq2point-nilm/README.md) |
 | 2026-11-09 | 五母线潮流 CNN 代理模型课堂实验 | [works/2026-11-09-cnn-pf-surrogate-5bus](./works/2026-11-09-cnn-pf-surrogate-5bus/README.md) |
+| 2026-11-10 | 电压质量扰动时序 CNN 分类 | [works/2026-11-10-cnn-voltage-quality](./works/2026-11-10-cnn-voltage-quality/README.md) |
