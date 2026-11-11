@@ -14,3 +14,4 @@
 | 2026-11-06 | 非侵入式负荷分解 seq2point CNN 入门 | [works/2026-11-06-seq2point-nilm](./works/2026-11-06-seq2point-nilm/README.md) |
 | 2026-11-09 | 五母线潮流 CNN 代理模型课堂实验 | [works/2026-11-09-cnn-pf-surrogate-5bus](./works/2026-11-09-cnn-pf-surrogate-5bus/README.md) |
 | 2026-11-10 | 电压质量扰动时序 CNN 分类 | [works/2026-11-10-cnn-voltage-quality](./works/2026-11-10-cnn-voltage-quality/README.md) |
+| 2026-11-11 | 微网逆变器开关故障与异常 ML 检测 | [works/2026-11-11-microgrid-inverter-switch-ml](./works/2026-11-11-microgrid-inverter-switch-ml/README.md) |
