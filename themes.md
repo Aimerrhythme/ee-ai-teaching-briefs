@@ -47,7 +47,7 @@
   - 课堂角度：用电磁暂态合成的短窗电压/电流，对比决策树、随机森林与浅层神经网络在故障类型与区段定位上的准确率与推理时延，把「保护定值」和「数据驱动」放在同一节课里对照。
   - 参考：https://arxiv.org/abs/2510.00831
 
-- [doing] xgb-dga-transformer | 油浸式变压器 DGA + XGBoost 诊断 | DGA, 变压器, XGBoost, 油色谱
+- [done] xgb-dga-transformer | 油浸式变压器 DGA + XGBoost 诊断 | DGA, 变压器, XGBoost, 油色谱
   - 课堂角度：先讲 IEC 三比值编码的局限，再用公开 DGA 样本训练 XGBoost，对照特征重要度与气体产气机理，适合专科「变压器运维」实验把传统经验规则接到可复现的 ML 流水线。
   - 参考：https://arxiv.org/abs/2110.11467
 

@@ -16,3 +16,4 @@
 | 2026-11-10 | 电压质量扰动时序 CNN 分类 | [works/2026-11-10-cnn-voltage-quality](./works/2026-11-10-cnn-voltage-quality/README.md) |
 | 2026-11-11 | 微网逆变器开关故障与异常 ML 检测 | [works/2026-11-11-microgrid-inverter-switch-ml](./works/2026-11-11-microgrid-inverter-switch-ml/README.md) |
 | 2026-11-12 | 配网短路故障分类与定位 ML 对比 | [works/2026-11-12-ml-fault-class-loc](./works/2026-11-12-ml-fault-class-loc/README.md) |
+| 2026-11-13 | 油浸式变压器 DGA + XGBoost 诊断 | [works/2026-11-13-xgb-dga-transformer](./works/2026-11-13-xgb-dga-transformer/README.md) |
