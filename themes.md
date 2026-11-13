@@ -66,3 +66,27 @@
 - [todo] lstm-ev-charge-forecast | 电动汽车充电站负荷 LSTM 预测 | 充电站, LSTM, 负荷预测, 交通电气化
   - 课堂角度：把校园或公开充电桩功率按 15 min 聚合，对比日翻日基线与 LSTM 的日前误差，串起「交通侧不确定性 → 配电侧峰荷」的教学故事线。
   - 参考：https://arxiv.org/abs/2510.16719 · https://arxiv.org/abs/2512.17257
+
+- [todo] gnn-grid-state-estimation | 配电网状态估计 GNN 入门 | GNN, 状态估计, 图结构, 量测
+  - 课堂角度：把母线当节点、线路当边，用少量量测加伪量测训练图神经网络估计电压幅值/相角，与加权最小二乘结果对照，帮学生理解「电网拓扑本身就是一张图」。
+  - 参考：https://arxiv.org/abs/2201.04056 · https://arxiv.org/abs/2207.11465
+
+- [todo] cnn-electricity-theft | 智能电表窃电检测 CNN 课堂案例 | 窃电检测, CNN, 智能电表, 不平衡分类
+  - 课堂角度：把用户日用电序列按周折成二维矩阵用 CNN 分类，重点讲正负样本极不平衡时为何看 AUC/召回而不是准确率，贴合用电检查与营销稽查岗位。
+  - 参考：https://arxiv.org/abs/2102.06039 · https://github.com/henryRDlab/ElectricityTheftDetection
+
+- [todo] yolo-insulator-defect | 无人机巡检绝缘子缺陷 YOLO 检测 | 绝缘子, YOLO, 目标检测, 输电巡检
+  - 课堂角度：用公开无人机绝缘子图像跑现成 YOLO 检测缺陷（掉串/破损），讲清标注框、mAP 与漏检代价，连接输电线路运维与智能巡检实训。
+  - 参考：https://arxiv.org/abs/2502.07179 · https://arxiv.org/abs/2410.11727 · https://github.com/InsulatorData/InsulatorDataSet
+
+- [todo] cnn-pv-el-defect | 光伏组件 EL 图像缺陷 CNN 分类 | 光伏, 电致发光, CNN, 缺陷识别
+  - 课堂角度：用公开 EL 电池片图像做「正常/缺陷」分类，从隐裂、断栅的物理成因讲到卷积特征，适合光伏运维与新能源专业的图像类入门实验。
+  - 参考：https://arxiv.org/abs/2402.17611 · https://github.com/zae-bayern/elpv-dataset
+
+- [todo] epf-day-ahead-lear-dnn | 日前电价预测 LEAR 与 DNN 对比 | 电价预测, 电力市场, LEAR, DNN
+  - 课堂角度：借开源基准数据对比朴素基线、带 LASSO 的线性自回归（LEAR）与 DNN 的日前电价误差，顺带讲电力现货市场「日前出清」概念，专升本可延伸到储能套利。
+  - 参考：https://arxiv.org/abs/2008.08004 · https://github.com/jeslago/epftoolbox
+
+- [todo] wind-power-curve-cleaning | 风机功率曲线异常点识别与清洗 | 风电, 功率曲线, 异常数据, 数据清洗
+  - 课堂角度：在风速—功率散点上识别限电、停机与传感器异常点，对比分箱统计法与基于图像/聚类的清洗方法，强调「先洗数据再建模」对风电预测的影响。
+  - 参考：https://arxiv.org/abs/2307.08539 · https://arxiv.org/abs/2210.12104
