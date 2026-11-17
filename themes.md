@@ -55,7 +55,7 @@
   - 课堂角度：在合成或公开 PMU 流上注入毛刺/丢包/频率偏移，用 Isolation Forest 做无监督告警，并与重构类方法做 F1 对比，强调「先检出再解释」的课堂节奏。
   - 参考：https://arxiv.org/abs/2509.25612
 
-- [doing] pinn-swing-smib | 单机无穷大摇摆方程 PINN 入门 | PINN, 摇摆方程, 暂态稳定, 物理信息
+- [done] pinn-swing-smib | 单机无穷大摇摆方程 PINN 入门 | PINN, 摇摆方程, 暂态稳定, 物理信息
   - 课堂角度：同一 MLP 结构分别做纯数据拟合与带配点残差的 PINN，观察稀疏样本下功角/转速轨迹，让学生体会「把微分方程写进损失函数」相对黑箱拟合的增益。
   - 参考：https://arxiv.org/abs/1911.03737 · https://arxiv.org/abs/2608.02599 · https://github.com/enliten/IEEE-course_AI-for-Power-Energy-Systems
 

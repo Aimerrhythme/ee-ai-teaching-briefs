@@ -18,3 +18,4 @@
 | 2026-11-12 | 配网短路故障分类与定位 ML 对比 | [works/2026-11-12-ml-fault-class-loc](./works/2026-11-12-ml-fault-class-loc/README.md) |
 | 2026-11-13 | 油浸式变压器 DGA + XGBoost 诊断 | [works/2026-11-13-xgb-dga-transformer](./works/2026-11-13-xgb-dga-transformer/README.md) |
 | 2026-11-16 | PMU 同步相量 Isolation Forest 异常检测 | [works/2026-11-16-iforest-pmu-anomaly](./works/2026-11-16-iforest-pmu-anomaly/README.md) |
+| 2026-11-17 | 单机无穷大摇摆方程 PINN 入门 | [works/2026-11-17-pinn-swing-smib](./works/2026-11-17-pinn-swing-smib/README.md) |
