@@ -20,3 +20,4 @@
 | 2026-11-16 | PMU 同步相量 Isolation Forest 异常检测 | [works/2026-11-16-iforest-pmu-anomaly](./works/2026-11-16-iforest-pmu-anomaly/README.md) |
 | 2026-11-17 | 单机无穷大摇摆方程 PINN 入门 | [works/2026-11-17-pinn-swing-smib](./works/2026-11-17-pinn-swing-smib/README.md) |
 | 2026-11-18 | 分时电价下储能 DQN 调度沙盒 | [works/2026-11-18-drl-bess-dispatch](./works/2026-11-18-drl-bess-dispatch/README.md) |
+| 2026-11-19 | 电动汽车充电站负荷 LSTM 预测 | [works/2026-11-19-lstm-ev-charge-forecast](./works/2026-11-19-lstm-ev-charge-forecast/README.md) |
