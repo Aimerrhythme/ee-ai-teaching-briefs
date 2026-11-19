@@ -63,7 +63,7 @@
   - 课堂角度：用 24 小时负荷与峰谷电价搭一个充/放/待机三动作玩具环境，跑浅层 DQN 并画累计电费曲线，只要求讲清状态—动作—奖励，不要求上真实微网控制器。
   - 参考：https://arxiv.org/abs/2608.02599 · https://github.com/enliten/IEEE-course_AI-for-Power-Energy-Systems
 
-- [todo] lstm-ev-charge-forecast | 电动汽车充电站负荷 LSTM 预测 | 充电站, LSTM, 负荷预测, 交通电气化
+- [doing] lstm-ev-charge-forecast | 电动汽车充电站负荷 LSTM 预测 | 充电站, LSTM, 负荷预测, 交通电气化
   - 课堂角度：把校园或公开充电桩功率按 15 min 聚合，对比日翻日基线与 LSTM 的日前误差，串起「交通侧不确定性 → 配电侧峰荷」的教学故事线。
   - 参考：https://arxiv.org/abs/2510.16719 · https://arxiv.org/abs/2512.17257
 
