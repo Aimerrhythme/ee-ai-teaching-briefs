@@ -67,7 +67,7 @@
   - 课堂角度：把校园或公开充电桩功率按 15 min 聚合，对比日翻日基线与 LSTM 的日前误差，串起「交通侧不确定性 → 配电侧峰荷」的教学故事线。
   - 参考：https://arxiv.org/abs/2510.16719 · https://arxiv.org/abs/2512.17257
 
-- [todo] gnn-grid-state-estimation | 配电网状态估计 GNN 入门 | GNN, 状态估计, 图结构, 量测
+- [doing] gnn-grid-state-estimation | 配电网状态估计 GNN 入门 | GNN, 状态估计, 图结构, 量测
   - 课堂角度：把母线当节点、线路当边，用少量量测加伪量测训练图神经网络估计电压幅值/相角，与加权最小二乘结果对照，帮学生理解「电网拓扑本身就是一张图」。
   - 参考：https://arxiv.org/abs/2201.04056 · https://arxiv.org/abs/2207.11465
 
