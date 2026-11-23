@@ -71,7 +71,7 @@
   - 课堂角度：把母线当节点、线路当边，用少量量测加伪量测训练图神经网络估计电压幅值/相角，与加权最小二乘结果对照，帮学生理解「电网拓扑本身就是一张图」。
   - 参考：https://arxiv.org/abs/2201.04056 · https://arxiv.org/abs/2207.11465
 
-- [todo] cnn-electricity-theft | 智能电表窃电检测 CNN 课堂案例 | 窃电检测, CNN, 智能电表, 不平衡分类
+- [done] cnn-electricity-theft | 智能电表窃电检测 CNN 课堂案例 | 窃电检测, CNN, 智能电表, 不平衡分类
   - 课堂角度：把用户日用电序列按周折成二维矩阵用 CNN 分类，重点讲正负样本极不平衡时为何看 AUC/召回而不是准确率，贴合用电检查与营销稽查岗位。
   - 参考：https://arxiv.org/abs/2102.06039 · https://github.com/henryRDlab/ElectricityTheftDetection
 
