@@ -75,7 +75,7 @@
   - 课堂角度：把用户日用电序列按周折成二维矩阵用 CNN 分类，重点讲正负样本极不平衡时为何看 AUC/召回而不是准确率，贴合用电检查与营销稽查岗位。
   - 参考：https://arxiv.org/abs/2102.06039 · https://github.com/henryRDlab/ElectricityTheftDetection
 
-- [todo] yolo-insulator-defect | 无人机巡检绝缘子缺陷 YOLO 检测 | 绝缘子, YOLO, 目标检测, 输电巡检
+- [done] yolo-insulator-defect | 无人机巡检绝缘子缺陷 YOLO 检测 | 绝缘子, YOLO, 目标检测, 输电巡检
   - 课堂角度：用公开无人机绝缘子图像跑现成 YOLO 检测缺陷（掉串/破损），讲清标注框、mAP 与漏检代价，连接输电线路运维与智能巡检实训。
   - 参考：https://arxiv.org/abs/2502.07179 · https://arxiv.org/abs/2410.11727 · https://github.com/InsulatorData/InsulatorDataSet
 

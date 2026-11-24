@@ -23,3 +23,4 @@
 | 2026-11-19 | 电动汽车充电站负荷 LSTM 预测 | [works/2026-11-19-lstm-ev-charge-forecast](./works/2026-11-19-lstm-ev-charge-forecast/README.md) |
 | 2026-11-20 | 配电网状态估计 GNN 入门 | [works/2026-11-20-gnn-grid-state-estimation](./works/2026-11-20-gnn-grid-state-estimation/README.md) |
 | 2026-11-23 | 智能电表窃电检测 CNN 课堂案例 | [works/2026-11-23-cnn-electricity-theft](./works/2026-11-23-cnn-electricity-theft/README.md) |
+| 2026-11-24 | 无人机巡检绝缘子缺陷 YOLO 检测 | [works/2026-11-24-yolo-insulator-defect](./works/2026-11-24-yolo-insulator-defect/README.md) |
