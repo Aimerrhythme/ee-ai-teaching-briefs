@@ -79,7 +79,7 @@
   - 课堂角度：用公开无人机绝缘子图像跑现成 YOLO 检测缺陷（掉串/破损），讲清标注框、mAP 与漏检代价，连接输电线路运维与智能巡检实训。
   - 参考：https://arxiv.org/abs/2502.07179 · https://arxiv.org/abs/2410.11727 · https://github.com/InsulatorData/InsulatorDataSet
 
-- [todo] cnn-pv-el-defect | 光伏组件 EL 图像缺陷 CNN 分类 | 光伏, 电致发光, CNN, 缺陷识别
+- [doing] cnn-pv-el-defect | 光伏组件 EL 图像缺陷 CNN 分类 | 光伏, 电致发光, CNN, 缺陷识别
   - 课堂角度：用公开 EL 电池片图像做「正常/缺陷」分类，从隐裂、断栅的物理成因讲到卷积特征，适合光伏运维与新能源专业的图像类入门实验。
   - 参考：https://arxiv.org/abs/2402.17611 · https://github.com/zae-bayern/elpv-dataset
 
