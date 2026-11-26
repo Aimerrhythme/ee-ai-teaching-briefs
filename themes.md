@@ -83,7 +83,7 @@
   - 课堂角度：用公开 EL 电池片图像做「正常/缺陷」分类，从隐裂、断栅的物理成因讲到卷积特征，适合光伏运维与新能源专业的图像类入门实验。
   - 参考：https://arxiv.org/abs/2402.17611 · https://github.com/zae-bayern/elpv-dataset
 
-- [doing] epf-day-ahead-lear-dnn | 日前电价预测 LEAR 与 DNN 对比 | 电价预测, 电力市场, LEAR, DNN
+- [done] epf-day-ahead-lear-dnn | 日前电价预测 LEAR 与 DNN 对比 | 电价预测, 电力市场, LEAR, DNN
   - 课堂角度：借开源基准数据对比朴素基线、带 LASSO 的线性自回归（LEAR）与 DNN 的日前电价误差，顺带讲电力现货市场「日前出清」概念，专升本可延伸到储能套利。
   - 参考：https://arxiv.org/abs/2008.08004 · https://github.com/jeslago/epftoolbox
 

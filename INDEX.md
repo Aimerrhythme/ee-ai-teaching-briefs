@@ -25,3 +25,4 @@
 | 2026-11-23 | 智能电表窃电检测 CNN 课堂案例 | [works/2026-11-23-cnn-electricity-theft](./works/2026-11-23-cnn-electricity-theft/README.md) |
 | 2026-11-24 | 无人机巡检绝缘子缺陷 YOLO 检测 | [works/2026-11-24-yolo-insulator-defect](./works/2026-11-24-yolo-insulator-defect/README.md) |
 | 2026-11-25 | 光伏组件 EL 图像缺陷 CNN 分类 | [works/2026-11-25-cnn-pv-el-defect](./works/2026-11-25-cnn-pv-el-defect/README.md) |
+| 2026-11-26 | 日前电价预测 LEAR 与 DNN 对比 | [works/2026-11-26-epf-day-ahead-lear-dnn](./works/2026-11-26-epf-day-ahead-lear-dnn/README.md) |
