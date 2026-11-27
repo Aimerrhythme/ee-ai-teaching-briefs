@@ -90,3 +90,33 @@
 - [done] wind-power-curve-cleaning | 风机功率曲线异常点识别与清洗 | 风电, 功率曲线, 异常数据, 数据清洗
   - 课堂角度：在风速—功率散点上识别限电、停机与传感器异常点，对比分箱统计法与基于图像/聚类的清洗方法，强调「先洗数据再建模」对风电预测的影响。
   - 参考：https://arxiv.org/abs/2307.08539 · https://arxiv.org/abs/2210.12104
+
+## 2026-11-27 补货
+
+- [todo] informer-ett-oiltemp | 变压器油温长序列预测：Informer 与 LSTM 对比 | Transformer 模型, Informer, 油温预测, ETT
+  - 课堂角度：用公开 ETT（电力变压器油温与负荷）数据做「过去 96 点 → 未来 24/96 点」预测，对比 LSTM 与 Informer 的误差和训练耗时，顺带讲清「注意力机制」与变压器热老化运维的关系（两个"变压器"别混）。
+  - 参考：https://arxiv.org/abs/2012.07436 · https://github.com/zhouhaoyi/ETDataset
+
+- [todo] lstm-battery-soc | 锂电池 SOC 估计：LSTM 与库仑计数对比 | SOC, LSTM, 锂电池, 储能
+  - 课堂角度：用公开 LG 18650HG2 工况数据（电压、电流、温度），先做安时积分基线，再训练 LSTM 直接回归 SOC，观察初值误差与电流传感器偏置下两者谁更稳，对接电动汽车/储能 BMS 课程。
+  - 参考：https://doi.org/10.1109/TIE.2017.2787586 · https://data.mendeley.com/datasets/b5mj79w5w9/2
+
+- [todo] cnn1d-cwru-bearing | 电机轴承故障 1D-CNN 分类入门 | 轴承故障, 1D-CNN, 振动, CWRU
+  - 课堂角度：在 CWRU 振动数据上对比「包络谱手工特征 + 随机森林」与「原始波形 1D-CNN」两条路线，讲清端到端学习省了什么、又丢了哪些可解释性，适合电机与拖动、设备点检实训。
+  - 参考：https://engineering.case.edu/bearingdatacenter
+
+- [todo] quantile-pv-probabilistic | 光伏出力概率预测：分位数回归与预测区间 | 概率预测, 分位数回归, 光伏, Pinball Loss
+  - 课堂角度：在点预测之外用分位数回归（线性/梯度提升）给出 10%–90% 预测区间，用 Pinball Loss 和区间覆盖率评估，帮助学生理解调度为什么需要"不确定性"而不只是一条曲线。
+  - 参考：https://doi.org/10.1016/j.ijforecast.2016.02.001
+
+- [todo] vsb-pd-line-fault | 架空线局部放电信号检测（VSB 数据） | 局部放电, 架空线, 特征工程, LightGBM
+  - 课堂角度：用 VSB 公开的三相架空线高频电压信号，先做去噪与峰值统计特征，再训练树模型判断是否存在局放，强调 MCC 等不平衡指标，连接高电压技术与绝缘在线监测。
+  - 参考：https://www.kaggle.com/c/vsb-power-line-fault-detection
+
+- [todo] grid2op-rl-intro | 电网运行强化学习入门：Grid2Op 拓扑操作 | 强化学习, Grid2Op, 线路过载, 调度
+  - 课堂角度：在 Grid2Op 小算例里让智能体通过切换线路/母线拓扑缓解过载，先跑"什么都不做"与贪心基线再看 RL 能否撑更久，帮学生直观感受调度员的"N-1 与操作"决策。
+  - 参考：https://github.com/rte-france/Grid2Op
+
+- [todo] sindy-dc-motor | 直流电机动态方程的数据驱动辨识（SINDy） | 系统辨识, SINDy, 直流电机, 稀疏回归
+  - 课堂角度：用仿真得到的电枢电流、转速数据，让 SINDy 从候选函数库里"找回"电机微分方程，再与教材参数对照，展示机器学习也能输出可读的物理模型，而不只是黑箱。
+  - 参考：https://arxiv.org/abs/2111.08481 · https://github.com/dynamicslab/pysindy
