@@ -87,6 +87,6 @@
   - 课堂角度：借开源基准数据对比朴素基线、带 LASSO 的线性自回归（LEAR）与 DNN 的日前电价误差，顺带讲电力现货市场「日前出清」概念，专升本可延伸到储能套利。
   - 参考：https://arxiv.org/abs/2008.08004 · https://github.com/jeslago/epftoolbox
 
-- [todo] wind-power-curve-cleaning | 风机功率曲线异常点识别与清洗 | 风电, 功率曲线, 异常数据, 数据清洗
+- [doing] wind-power-curve-cleaning | 风机功率曲线异常点识别与清洗 | 风电, 功率曲线, 异常数据, 数据清洗
   - 课堂角度：在风速—功率散点上识别限电、停机与传感器异常点，对比分箱统计法与基于图像/聚类的清洗方法，强调「先洗数据再建模」对风电预测的影响。
   - 参考：https://arxiv.org/abs/2307.08539 · https://arxiv.org/abs/2210.12104
